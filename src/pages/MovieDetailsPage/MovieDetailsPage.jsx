@@ -1,3 +1,4 @@
+// MovieDetailsPage.jsx (güncellenmiş)
 import { Suspense, useEffect, useRef, useState } from "react";
 import {
   Link,
@@ -66,12 +67,20 @@ export default function MovieDetailsPage() {
           </div>
 
           <div className={appStyles.subnav}>
-            <NavLink to="cast">Cast</NavLink>
-            <NavLink to="reviews">Reviews</NavLink>
+            {/* Mutlak path kullanıldı: başında slash var */}
+            <NavLink to={`/movies/${movieId}/cast`} end>
+              Cast
+            </NavLink>
+            <NavLink to={`/movies/${movieId}/reviews`} end>
+              Reviews
+            </NavLink>
           </div>
 
           <div className={appStyles.outlet}>
             <Suspense fallback={<div>Loading section...</div>}>
+              {/* 
+
+              */}
               <Routes>
                 <Route path="cast" element={<MovieCast />} />
                 <Route path="reviews" element={<MovieReviews />} />
