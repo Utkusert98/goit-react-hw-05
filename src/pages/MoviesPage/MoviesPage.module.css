@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+}
+.input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.btn {
+  padding: 8px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fafafa;
+  cursor: pointer;
+}

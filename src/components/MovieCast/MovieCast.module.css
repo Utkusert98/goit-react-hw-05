@@ -1,0 +1,26 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+}
+.item {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 8px;
+  background: #fff;
+}
+.img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: #f2f2f2;
+  border-radius: 6px;
+}
+.name {
+  font-weight: 600;
+  margin-top: 6px;
+}
+.char {
+  font-size: 12px;
+  color: #555;
+}

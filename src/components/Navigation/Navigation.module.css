@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+.link {
+  text-decoration: none;
+  font-weight: 600;
+}
+.active {
+  color: #1976d2;
+}

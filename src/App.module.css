@@ -1,0 +1,19 @@
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.outlet {
+  margin-top: 16px;
+}
+.back {
+  display: inline-block;
+  margin: 12px 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.subnav {
+  display: flex;
+  gap: 12px;
+  margin: 16px 0;
+}

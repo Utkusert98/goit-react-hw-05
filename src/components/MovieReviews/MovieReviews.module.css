@@ -1,0 +1,17 @@
+.list {
+  display: grid;
+  gap: 12px;
+}
+.item {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+}
+.author {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.content {
+  white-space: pre-wrap;
+}
